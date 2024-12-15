@@ -37,7 +37,7 @@ function activate(context) {
             const cssFileContent = "";
 
             const indexFileContent = `
-import ${folderName} from './${folderName}.jsx';
+import ${folderName} from './${folderName}.tsx';
 
 export { ${folderName} }';
 `;
